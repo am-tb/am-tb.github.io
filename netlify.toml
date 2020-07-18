@@ -1,6 +1,5 @@
 [[redirects]]
   from = "/"
-  to = "https://am-tb.tk/?time=:time&u=:u&:en"
+  to = "https://am-tb.tk/"
   status = 301
   force = true
-  query = {time = ":time", u = ":u", en=":en"}
