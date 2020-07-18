@@ -1,2 +1,2 @@
-/ time=:time u=:u en=:en            https://am-tb.tk/?time=:time&u=:u&en=1 301!
+/ time=:time u=:u en=:en            https://am-tb.tk/?time=:time&u=:u&en 301!
 / time=:time u=:u            https://am-tb.tk/?time=:time&u=:u 301!
