@@ -5,36 +5,17 @@
   <title>Amazon</title>
   <meta name="description" content="Amazon Bestsellers">
   <meta name="viewport" content="width=device-width" />
+	<!-- OGP -->
+	<meta property="og:url" content="http://www.amazon.com/">
+	<!-- /OGP -->
+	<!-- Twitter Card -->
+	<meta name="twitter:card" content="summary">
+	<meta name="twitter:description" content="http://www.amazon.com/">
+	<meta name="twitter:title" content="AMAZON">
+	<meta name="twitter:image" content="logo.jpg">
+	<!-- /Twitter Card -->
 <script type="text/javascript">
 <!--
-	var asin = "B08BF3DMHK";
-	var originalurl = "http://www.amazon.co.jp/dp/" + asin;
-	var originalname = "AMAZON.CO.JP";
-	var originalimg = 'http://ws-fe.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=' + asin + '&Format=_SY315_AA600_&ID=AsinImage&MarketPlace=JP&ServiceVersion=20070822&WS=1';
-		
-    var meta1 = document.createElement('meta');
-    meta1.name = "twitter:card";
-    meta1.content = "summary_large_image";
-    document.head.appendChild(meta1);
-
-    var meta2 = document.createElement('meta');
-    meta2.name = "twitter:description";
-    meta2.content = originalurl;
-    document.head.appendChild(meta2);
-    
-    
-    var meta3 = document.createElement('meta');
-    meta3.name = "twitter:title";
-    meta3.content = originalname;
-    document.head.appendChild(meta3);
-    
-    
-    var meta4 = document.createElement('meta');
-    meta4.name = "twitter:image";
-    meta4.content = originalimg;
-    document.head.appendChild(meta4);
-    
-
 setTimeout( "link()" , 0);
 function link(){
   var redirect_url = "https://am-tb.tk/amaranrss/r/" + location.search;
