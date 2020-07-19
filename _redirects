@@ -1,10 +1,10 @@
 # / time=:time u=:u en=:en            https://am-tb.tk/amaranrss/r/?time=:time&u=:u&en=1 301!
 # / time=:time u=:u            https://am-tb.tk/amaranrss/r/?time=:time&u=:u 301!
 
-/r/wordpress2blogger/en/              https://am-tb.tk/wordpress2blogger/en/ 301!
-/r/wordpress2blogger/              https://am-tb.tk/wordpress2blogger/ 301!
-/r/amaranrss/en/              https://am-tb.tk/amaranrss/en/ 301!
-/r/amaranrss/              https://am-tb.tk/amaranrss/ 301!
-/r/otona/              https://am-tb.tk/otona/ 301!
-/r/en/              https://am-tb.tk/en/ 301!
-/r/              https://am-tb.tk/ 301!
+# /r/wordpress2blogger/en/              https://am-tb.tk/wordpress2blogger/en/ 301!
+# /r/wordpress2blogger/              https://am-tb.tk/wordpress2blogger/ 301!
+# /r/amaranrss/en/              https://am-tb.tk/amaranrss/en/ 301!
+# /r/amaranrss/              https://am-tb.tk/amaranrss/ 301!
+# /r/otona/              https://am-tb.tk/otona/ 301!
+# /r/en/              https://am-tb.tk/en/ 301!
+# /r/              https://am-tb.tk/ 301!
