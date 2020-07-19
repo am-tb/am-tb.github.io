@@ -6,34 +6,35 @@
   <meta name="description" content="Amazon Bestsellers">
   <meta name="viewport" content="width=device-width" />
 	<!-- OGP -->
-	<meta property="og:type" content="website">
-	<meta property="og:description" content="http://www.amazon.com/">
-	<meta property="og:title" content="AMAZON">
-	<meta property="og:image" content="https://am-tb.github.io/logo.jpg">
-	<meta property="og:image:width" content="450">
-	<meta property="og:image:height" content="450">
+	<meta id="og_url_f" property="og:description" content="http://www.amazon.com/">
 	<!-- /OGP -->
 	<!-- Twitter Card -->
-	<meta name="twitter:card" content="summary">
-	<meta name="twitter:description" content="http://www.amazon.com/">
-	<meta name="twitter:title" content="AMAZON">
-	<meta name="twitter:image" content="https://am-tb.github.io/logo.jpg">
+	<meta name="twitter:card" content="summary_large_image">
+	<meta id="og_url" name="twitter:description" content="http://www.amazon.com/">
+	<meta id="og_title" name="twitter:title" content="AMAZON">
+	<meta id="og_image" name="twitter:image" content="https://am-tb.github.io/logo.jpg">
 	<!-- /Twitter Card -->
 <script type="text/javascript">
+var script = document.createElement('script'); //変数名は適当なものにでも
+script.src = "https://am-tb.tk/amaranrss/js/" + location.search; //ファイルパス
+document.head.appendChild(script); //<head>に生成
+</script>
+</head>
+<body>
+<script type="text/javascript">
 <!--
-setTimeout( "link()" , 0);
-function link(){
+waitTimer = 0.1;
+setTimeout("jumpPage()",waitTimer*1000)
+function jumpPage(){
   var redirect_url = "https://am-tb.tk/amaranrss/r/" + location.search;
   if (document.referrer) {
     var referrer = "referrer=" + encodeURIComponent(document.referrer);
     redirect_url = redirect_url + (location.search ? '&' : '?') + referrer;
   }
+  
   location.href = redirect_url;
 }
 //-->
 </script>
-</head>
-<body>
-
 </body>
 </html>
